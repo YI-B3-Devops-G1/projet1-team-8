@@ -11,9 +11,10 @@ Github : AlexDvt
 
 # Objectifs
 
-- Créer une image avec Docker
-- Installer des modules npm
-- Découvrir les méthodes et les outils d'automatisation
+- Orchestrer le build et le déploiement d’un projet NodeJS simple
+- Découvrir les méthodes et outils d’automatisation
+- Implémenter des tests simple
+- Packager une application
 
 # Prérequis
 
@@ -22,5 +23,14 @@ Github : AlexDvt
 -> Nodejs
 
 
-# Installation
+# Commandes pour Docker compose
+
+Pour construire notre image : 
+ * docker-compose build
+
+Pour lancer l'image :
+ * docker-compose up -d
+
+Pour la stopper :
+ * docker-compose down
 
